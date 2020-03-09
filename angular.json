@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "fut-ascii-picker": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fut-ascii-picker"
+    }
+  },
+  "defaultProject": "fut-ascii-picker",
+  "cli": {
+    "analytics": "9e17a8a2-170e-4769-97a7-860d89e1a5cf"
+  }
 }
