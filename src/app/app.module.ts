@@ -4,10 +4,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CandidateGalleryComponent } from './candidates/candidate-gallery/candidate-gallery.component';
+import { CandidateComponent } from './candidates/candidate/candidate.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CandidateGalleryComponent,
+    CandidateComponent
   ],
   imports: [
     BrowserModule,
